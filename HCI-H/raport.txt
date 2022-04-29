@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> HCI-raport </title>
+</head>
+
+<body>
+    <header>
+	<h1> HCI-raport</h1>
+        <div role="contentinfo">
+        <dl>
+            <dt>Authors</dt>
+            <dd>Paladi Alexandru</dd>
+           
+        </dl>
+        
+        <section id="project-details" role="doc-abstract">
+            <h2>1. Project details</h2>
+            <p>I want to create a website where the students can view their grades and set some goals considering their grade.
+		A student can give his permision to a specific course, so that they can share his personal id and grade. The 
+		teachers can add grades to the students, they can add new courses or remove them. The third participant is 
+		the secretary whitch gives permisions to the created users, or removes them. The website gives you the option
+		,as a student, to select your target grade, and reminds you when new grades are updated to the specific 
+		course, if you are able to reach your target.</p>
+        </section>
+        <section id="introduction" role="doc-introduction">
+            <h2>2. Introduction</h2>
+            <p>"Catalog-Live" is a website that can help students setting a reach point to a specific course. For teachers 
+		it should be more easily to post the grades and having them online.</p>
+        </section>
+        <section id="structure" role="doc-structure">
+            <h2>3. Wireframe</h2>
+	    	<figure>
+ 		<img src="bubbles-work.jpeg"
+      			alt="Bubbles, sitting in his office chair, works on his
+           		latest project intently.">
+ 		<figcaption>Bubbles at work</figcaption>
+		</figure>
+            </section>
+        <section id="structure__landing" role="doc-structure">
+            <h3>4.1. Landing Page</h3>
+            <p>The first page that user will enter upon accessing the website, here we describe the product so we can make it more atractive to the user it also invites the user to use the app trought different butons that allow him to explore the page.</p>
+        </section>
+        <section id="structure__myacc" role="doc-structure">
+            <h3>4.2. Login Page</h3>
+        </section>
+        <section id="structure__myacc_logged" role="doc-structure">
+            <h4>4.2.1. Login </h4>
+            <p>This is the page where the user can login into his account and publish his recipes.</p>
+        </section>
+        <section id="structure__myacc_notlogged" role="doc-structure">
+            <h4>4.2.2. Register</h4>
+            <p>This is the page where the user can authenticate for the first time with new credentials and login in his new account.</p>
+        </section>
+        <section id="structure__announceslist" role="doc-structure">
+            <h3>4.3. FAQ Page</h3>
+            <p>The FAQ page is the page where the client can see the questions that were the most frequnetly asked about the website, its also a way for the user to get to know the website better.</p>
+        </section>
+        <section id="structure__announce" role="doc-structure">
+            <h3>4.4. Contact Us Page</h3>
+            <p>This is the page where the user can see all of our social media platforms and contact us if he wants trought a feedback sesion.
+            </p>
+        </section>
+        <section id="structure__newannounce" role="doc-structure">
+            <h3>4.5. Recipes Page</h3>
+            <p>This Page is broken in two as there is a page where the user can search based on his ingredients a new recipe or he can add one of its own.</p>
+        </section>
+        <section id="use-cases" role="doc-structure">
+            <h2>5. Use cases</h2>
+        </section>
+        <section id="use-cases__account" role="doc-structure">
+            <h3>5.1. The user searches for a recipe based on the ingredients that he put in.</h3>
+            <p>This is when the user uses the search bar provided in the Recipes Tab, there when he types his ingredients the recipes that use those ingredients will appear. </a>.</p>
+        </section>
+        <section id="use-cases__newannounce" role="doc-structure">
+            <h3>5.2. The user creates a new account</h3>
+            <p>The user decides to use the page provided for his registration, here he will input his new username and password for the creation of the new account.</a>.</p>
+        </section>
+        <section id="use-cases__searchannounces" role="doc-structure">
+            <h3>5.3. The user logs in</h3>
+            <p>The user can perform a search based on keywords by entering them in the search bar from the navbar / burger-menu and pressing the "Search" icon. He will be redirected to <a href="structure__announceslist">Search Result Page</a>, where he can
+                find the result.</p>
+        </section>
+        <section id="objectives" role="doc-structure">
+            <h2>6. What we have achieved</h2>
+        </section>
+        <section id="objectives__overview" role="doc-structure">
+            <h3>6.1. Overview</h3>
+            <p>We have managed to create the server using node js.We have created the routing of each page and we have implementated a way for the user to register and log in. We made it possible so the user can use the searchbar coreclty and some result
+                to be shown on the page.We have implemented so the user can add a new recipe to the website.</p>
+        </section>
+        <section id="objectives__db" role="doc-structure">
+            <h3>6.2. The Database</h3>
+            <p>Because it is necesary to store both the recipes and the ingredients somewhere we have created a database using mongoose.</p>
+        </section>
+        <section id="objectives__db" role="doc-structure">
+            <h3>7. Bibliografie</h3>
+            <p>When we have worked on the routing part of the website we have inspired ourselves from <a href="https://github.com/stefanT9/Routing-In-NodeJs">this source.</a></p>
+        </section>
+	</div>
+    </header>
+</body>
+
+</html>
